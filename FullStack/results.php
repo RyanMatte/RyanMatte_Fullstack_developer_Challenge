@@ -91,7 +91,7 @@ $conn->close();
         });
     }
 </script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCfPwAGXZq_o2ge5zPmE0L_rlaRZVlnY9I&callback=initMap"
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR KEY HEREcallback=initMap"
         async defer></script>
 
 <div class="card mx-auto" style="width: 50%; margin-top: 20px">
