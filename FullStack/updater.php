@@ -23,7 +23,7 @@ $username = "root";
 $password = "";
 
 // getting new coordinates using the google maps api
-$geocode = file_get_contents('https://maps.googleapis.com/maps/api/geocode/json?address='.$googlequery.'&key=AIzaSyCfPwAGXZq_o2ge5zPmE0L_rlaRZVlnY9I');
+$geocode = file_get_contents('https://maps.googleapis.com/maps/api/geocode/json?address='.$googlequery.'&key=YOUR KEY HERE');
 
 $output= json_decode($geocode);
 
